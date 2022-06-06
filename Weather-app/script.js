@@ -1,10 +1,5 @@
-// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-// https://api.openweathermap.org/data/2.5/weather?q=London&appid=372cfd7d05fdfa9465a67fb18424aed6
-// "apiKey": "372cfd7d05fdfa9465a67fb18424aed6"
-// https://api.openweathermap.org/data/2.5/weather?q=London&unit=metric&appid=372cfd7d05fdfa9465a67fb18424aed6
-
 let weather = {
-    apiKey: "372cfd7d05fdfa9465a67fb18424aed6",
+    apiKey: "SECRET_API",
     fetchWeather: function (city) {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q=" +
